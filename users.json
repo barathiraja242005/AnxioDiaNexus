@@ -21,11 +21,26 @@
       }
     },
     {
-      "username": "prasanna",
-      "password": "prasanna123",
+      "username": "gowtham",
+      "password": "gowtham123",
       "role": "user",
       "personDetails": {
-        "name": "Prasanna H",
+        "name": "Gowtham A",
+        "heartRate": 72,
+        "stressLevel": 2,
+        "bodyTemp": 36.6,
+        "glucoseLevel": 90,
+        "batteryStatus": 85,
+        "eatingDetected": true,
+        "address": "123, Elm Street, Chennai, India"
+      }
+    },
+    {
+      "username": "prasana",
+      "password": "prasanaa123",
+      "role": "user",
+      "personDetails": {
+        "name": "Prasanaa H",
         "heartRate": 72,
         "stressLevel": 2,
         "bodyTemp": 36.6,
@@ -66,11 +81,11 @@
       }
     },
     {
-      "username": "koundar",
-      "password": "koundar123",
+      "username": "barathiraja",
+      "password": "barathiraja123",
       "role": "user",
       "personDetails": {
-        "name": "Koundar",
+        "name": "Barathiraja",
         "heartRate": 72,
         "stressLevel": 4,
         "bodyTemp": 36.9,
