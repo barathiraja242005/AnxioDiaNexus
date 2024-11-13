@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Monitoring Device</title>
+  <link rel="stylesheet" href="users.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Health Monitoring Device</h1>
+    
+    <!-- Display Username and Address -->
+    <div id="userName">Welcome, <span id="username">User</span></div>
+    <div id="userAddress">Address: Not available</div> <!-- Added address here -->
+    
+    <div class="status">
+      <div id="batteryStatus">Battery: 100%</div>
+      <div id="deviceStatus">Device: Initialized</div>
+    </div>
+    
+    <div class="monitoring">
+      <div id="heartRate">Heart Rate: -- bpm</div>
+      <div id="stressLevel">Stress: --</div>
+      <div id="bodyTemp">Body Temp: --°C</div>
+    </div>
+    
+    <div class="alerts">
+      <div id="glucoseAlert">Glucose Level: Normal</div>
+      <div id="stressAlert">Stress Level: Normal</div>
+    </div>
+    
+    <button onclick="simulateMonitor()">Start Monitoring</button>
+    
+    <!-- Download Report Button -->
+    <button onclick="downloadReport()">Download Report</button>
+
+    <!-- Logout Button -->
+    <button onclick="logOut()">Logout</button>
+  </div>
+<script src="user.js"></script>
+</body>
+</html>

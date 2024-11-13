@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Health Monitoring</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </header>
+        
+        <div class="user-list">
+            <h2>Users Health Data</h2>
+            <div id="allData" class="user-cards-container">
+                <!-- User data cards will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const currentUser = JSON.parse(localStorage.getItem('user'));
+
+        if (currentUser && currentUser.role === 'admin') {
+            fetch('users.json')
+                .then(response => response.json())
+                .then(data => {
+                    const allDataDiv = document.getElementById('allData');
+                    data.users.forEach(user => {
+                        if (user.role === 'user') {
+                            const personCard = document.createElement('div');
+                            personCard.className = 'person-card';
+                            personCard.innerHTML = `
+                                <h3>${user.personDetails.name}</h3>
+                                <p><strong>Heart Rate:</strong> ${user.personDetails.heartRate} bpm</p>
+                                <p><strong>Stress Level:</strong> ${user.personDetails.stressLevel}</p>
+                                <p><strong>Body Temp:</strong> ${user.personDetails.bodyTemp}°C</p>
+                                <p><strong>Glucose Level:</strong> ${user.personDetails.glucoseLevel} mg/dL</p>
+                                <p><strong>Battery Status:</strong> ${user.personDetails.batteryStatus}%</p>
+                                <p><strong>Eating Detected:</strong> ${user.personDetails.eatingDetected}</p>
+                                <p><strong>Address:</strong> ${user.personDetails.address}</p> <!-- Added Address -->
+                            `;
+                            allDataDiv.appendChild(personCard);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        } else {
+            window.location.href = 'login.html';
+        }
+
+        function logout() {
+            localStorage.removeItem('user');
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

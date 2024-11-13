@@ -1,0 +1,241 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f8f6;
+}
+
+h1, h2, h3 {
+    color: #388e3c;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Admin Page */
+.admin-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #e53935;
+}
+
+.user-list {
+    margin-top: 20px;
+}
+
+.user-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.person-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.person-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.person-card p {
+    margin: 5px 0;
+}
+
+.person-card strong {
+    color: #388e3c;
+}
+
+/* User Page */
+.user-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #e53935;
+}
+
+.user-data {
+    margin-top: 20px;
+}
+
+.user-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-card h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+.user-card strong {
+    color: #388e3c;
+}
+
+/* Login Page */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.login-container h1 {
+    color: #388e3c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #388e3c;
+}
+
+.submit-btn {
+    background-color: #388e3c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #2e7d32;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .admin-container,
+    .user-container {
+        padding: 15px;
+    }
+
+    .user-cards-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .person-card,
+    .user-card {
+        padding: 15px;
+    }
+
+    .login-container {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .person-card,
+    .user-card {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 20px;
+    }
+    
+    button {
+        font-size: 14px;
+    }
+}

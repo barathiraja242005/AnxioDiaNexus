@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+/* Admin container */
+.admin-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #45a049;
+}
+
+/* User list container */
+.user-list {
+    margin-top: 20px;
+}
+
+.user-list h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* User data cards container */
+.user-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Individual user card */
+.person-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.person-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.person-card h3 {
+    font-size: 1.4rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.person-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Label for each value */
+.person-card p strong {
+    color: #4CAF50;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .logout-btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .person-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .person-card p {
+        font-size: 0.9rem;
+    }
+}

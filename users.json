@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "username": "harini",
+      "password": "harini123",
+      "role": "user",
+      "personDetails": {
+        "name": "Harini M",
+        "heartRate": 72,
+        "stressLevel": 2,
+        "bodyTemp": 36.6,
+        "glucoseLevel": 90,
+        "batteryStatus": 85,
+        "eatingDetected": true,
+        "address": "123, Elm Street, Chennai, India"
+      }
+    },
+    {
+      "username": "prasanna",
+      "password": "prasanna123",
+      "role": "user",
+      "personDetails": {
+        "name": "Prasanna H",
+        "heartRate": 72,
+        "stressLevel": 2,
+        "bodyTemp": 36.6,
+        "glucoseLevel": 90,
+        "batteryStatus": 85,
+        "eatingDetected": true,
+        "address": "123, Elm Street, Chennai, India"
+      }
+    },
+    {
+      "username": "gowtham",
+      "password": "gowtham123",
+      "role": "user",
+      "personDetails": {
+        "name": "Gowtham",
+        "heartRate": 68,
+        "stressLevel": 3,
+        "bodyTemp": 37.0,
+        "glucoseLevel": 92,
+        "batteryStatus": 90,
+        "eatingDetected": false,
+        "address": "456, Oak Avenue, Bangalore, India"
+      }
+    },
+    {
+      "username": "velan",
+      "password": "velan123",
+      "role": "user",
+      "personDetails": {
+        "name": "Velan",
+        "heartRate": 68,
+        "stressLevel": 3,
+        "bodyTemp": 37.0,
+        "glucoseLevel": 92,
+        "batteryStatus": 90,
+        "eatingDetected": false,
+        "address": "789, Pine Road, Hyderabad, India"
+      }
+    },
+    {
+      "username": "koundar",
+      "password": "koundar123",
+      "role": "user",
+      "personDetails": {
+        "name": "Koundar",
+        "heartRate": 72,
+        "stressLevel": 4,
+        "bodyTemp": 36.9,
+        "glucoseLevel": 98,
+        "batteryStatus": 92,
+        "eatingDetected": false,
+        "address": "321, Maple Lane, Chennai, India"
+      }
+    },
+    {
+      "username": "saran",
+      "password": "saran123",
+      "role": "user",
+      "personDetails": {
+        "name": "Saran",
+        "heartRate": 80,
+        "stressLevel": 7,
+        "bodyTemp": 37.5,
+        "glucoseLevel": 120,
+        "batteryStatus": 65,
+        "eatingDetected": true,
+        "address": "654, Birch Street, Pune, India"
+      }
+    },
+    {
+      "username": "pratyush",
+      "password": "pratyush",
+      "role": "user",
+      "personDetails": {
+        "name": "Pratyush",
+        "heartRate": 80,
+        "stressLevel": 7,
+        "bodyTemp": 37.5,
+        "glucoseLevel": 120,
+        "batteryStatus": 65,
+        "eatingDetected": true,
+        "address": "654, Birch Street, Pune, India"
+      }
+    },
+    {
+      "username": "priya",
+      "password": "priya123",
+      "role": "user",
+      "personDetails": {
+        "name": "Priya",
+        "heartRate": 78,
+        "stressLevel": 4,
+        "bodyTemp": 36.6,
+        "glucoseLevel": 99,
+        "batteryStatus": 88,
+        "eatingDetected": false,
+        "address": "987, Cedar Avenue, Delhi, India"
+      }
+    },
+    {
+      "username": "ravi",
+      "password": "ravi123",
+      "role": "user",
+      "personDetails": {
+        "name": "Ravi",
+        "heartRate": 80,
+        "stressLevel": 6,
+        "bodyTemp": 37.0,
+        "glucoseLevel": 110,
+        "batteryStatus": 95,
+        "eatingDetected": true,
+        "address": "135, Willow Road, Mumbai, India"
+      }
+    },
+    {
+      "username": "nisha",
+      "password": "nisha123",
+      "role": "user",
+      "personDetails": {
+        "name": "Nisha",
+        "heartRate": 74,
+        "stressLevel": 3,
+        "bodyTemp": 36.9,
+        "glucoseLevel": 105,
+        "batteryStatus": 90,
+        "eatingDetected": false,
+        "address": "246, Elm Street, Kolkata, India"
+      }
+    },
+    {
+      "username": "akshay",
+      "password": "akshay123",
+      "role": "user",
+      "personDetails": {
+        "name": "Akshay",
+        "heartRate": 88,
+        "stressLevel": 8,
+        "bodyTemp": 37.4,
+        "glucoseLevel": 125,
+        "batteryStatus": 80,
+        "eatingDetected": true,
+        "address": "369, Rose Lane, Chennai, India"
+      }
+    },
+    {
+      "username": "manoj",
+      "password": "manoj123",
+      "role": "user",
+      "personDetails": {
+        "name": "Manoj",
+        "heartRate": 75,
+        "stressLevel": 5,
+        "bodyTemp": 36.8,
+        "glucoseLevel": 110,
+        "batteryStatus": 78,
+        "eatingDetected": true,
+        "address": "258, Vine Street, Bangalore, India"
+      }
+    },
+    {
+      "username": "karthik",
+      "password": "karthik123",
+      "role": "user",
+      "personDetails": {
+        "name": "Karthik",
+        "heartRate": 76,
+        "stressLevel": 3,
+        "bodyTemp": 37.0,
+        "glucoseLevel": 99,
+        "batteryStatus": 90,
+        "eatingDetected": false,
+        "address": "147, Birch Avenue, Hyderabad, India"
+      }
+    },
+    {
+      "username": "jaya",
+      "password": "jaya123",
+      "role": "user",
+      "personDetails": {
+        "name": "Jaya",
+        "heartRate": 82,
+        "stressLevel": 2,
+        "bodyTemp": 36.7,
+        "glucoseLevel": 88,
+        "batteryStatus": 92,
+        "eatingDetected": true,
+        "address": "159, Maple Road, Delhi, India"
+      }
+    },
+    {
+      "username": "latha",
+      "password": "latha123",
+      "role": "user",
+      "personDetails": {
+        "name": "Latha",
+        "heartRate": 72,
+        "stressLevel": 4,
+        "bodyTemp": 37.2,
+        "glucoseLevel": 95,
+        "batteryStatus": 88,
+        "eatingDetected": false,
+        "address": "753, Pine Lane, Pune, India"
+      }
+    },
+    {
+      "username": "sundar",
+      "password": "sundar123",
+      "role": "user",
+      "personDetails": {
+        "name": "Sundar",
+        "heartRate": 70,
+        "stressLevel": 5,
+        "bodyTemp": 37.1,
+        "glucoseLevel": 115,
+        "batteryStatus": 85,
+        "eatingDetected": true,
+        "address": "963, Oak Road, Mumbai, India"
+      }
+    }
+  ]
+}
