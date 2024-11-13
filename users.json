@@ -51,21 +51,6 @@
       }
     },
     {
-      "username": "gowtham",
-      "password": "gowtham123",
-      "role": "user",
-      "personDetails": {
-        "name": "Gowtham",
-        "heartRate": 68,
-        "stressLevel": 3,
-        "bodyTemp": 37.0,
-        "glucoseLevel": 92,
-        "batteryStatus": 90,
-        "eatingDetected": false,
-        "address": "456, Oak Avenue, Bangalore, India"
-      }
-    },
-    {
       "username": "velan",
       "password": "velan123",
       "role": "user",
